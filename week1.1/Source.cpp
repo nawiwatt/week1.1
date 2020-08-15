@@ -4,10 +4,10 @@ int main()
 	int m = 999999999;
 	int M = -999999999;
 	int a, n, i;
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	for (i = 0;i < n;i++)
 	{
-		scanf("%d", &a);
+		scanf_s("%d", &a);
 		if (a < m)
 		{
 			m = a;
